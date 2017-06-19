@@ -41,6 +41,7 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.MyView
 
     // index is used to animate only the selected row
     // dirty fix, find a better solution
+    //当前默认选择项
     private static int currentSelectedIndex = -1;
 
     public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnLongClickListener {
