@@ -108,6 +108,7 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.MyView
         holder.itemView.setActivated(selectedItems.get(position, false));
 
         // change the font style depending on message read status
+        //133
         applyReadStatus(holder, message);
 
         // handle message star
