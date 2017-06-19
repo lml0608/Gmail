@@ -104,7 +104,7 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.MyView
         // displaying the first letter of From in icon text
         holder.iconText.setText(message.getFrom().substring(0, 1));
 
-        // change the row state to activated
+        // change the row state to activated1
         holder.itemView.setActivated(selectedItems.get(position, false));
 
         // change the font style depending on message read status

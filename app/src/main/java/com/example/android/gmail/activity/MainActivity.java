@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity implements
 
     @Override
     public void onIconClicked(int position) {
-        //实现接口方法，图标点击事件
+        //实现接口方法，图标点击事件1
         if (actionMode == null) {
             actionMode = startSupportActionMode(actionModeCallback);
         }
